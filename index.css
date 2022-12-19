@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+/* Style the form, and make the form float in the center of the screen */
+.form-section {
+  font-size: 15px;
+  width: 300px;
+  height: 336px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -168px 0 0 -150px;
+}
+
+.form-section p {
+  margin: 8px;
+}
+
+/* Style the Submit button of the form */
+.form-section button {
+  font-family: "Lato", sans-serif;
+  background-color: lightgray;
+  font-size: 13px;
+  padding: 5px 10px;
+  margin: 2px 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Style the toolbar and make it snapped to the bottom of the page */
+.bottom-toolbar {
+  background-color: #666;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style the four buttons inside the toolbar */
+.bottom-toolbar button {
+  font-family: "Lato", sans-serif;
+  background-color: lightcyan;
+  font-weight: 700;
+  font-size: 13px;
+  padding: 6px 16px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Push two buttons to the right of the toolbar */
+.bottom-toolbar .btn--2 {
+  margin-right: auto;
+}
+
+/* Add a hover effect to all the buttons for this exercise */
+button:hover {
+  background-color: #04aa6d;
+  color: whitesmoke;
+  cursor: pointer;
+}
